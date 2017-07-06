@@ -6,5 +6,4 @@ Uses jQuery (unfortunately), jQuery UI Sortable and touchpunch.
 
 I am not really a programmer, all apologies for my code.
 
-Lauri-Matti Parppei
-www.kapitan.fi
+See it live: www.kapitan.fi/dada/
