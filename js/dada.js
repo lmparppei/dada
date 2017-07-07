@@ -44,6 +44,14 @@ function cutUp () {
 
 	// According to it get limiter and split text
 	var delimiter = delimiters[method];
+
+	// If we are not splitting by line breaks, let's remove them altogether
+	console.log('delimit: "' + delimiter + '"');
+	if (delimiter != "\n") {
+		console.log('Jep');
+		text = text.replace(/\n/g, " ");
+	}
+
 	var pieces = text.split(delimiter);
 
 	// Shuffle pieces	

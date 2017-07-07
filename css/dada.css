@@ -72,13 +72,17 @@ button:focus {
 
 .piece {
 	margin: .3em;
-	float: left;
-	cursor: move;			                               
+	cursor: move;
+	float: left;		                               
 }
-.piece.Lines { clear: both; }
+.piece.Lines {
+	clear: both; 
+}
+.piece.Words {
+	float: left;
+}
 
 .piece p {
-	display: inline-block;
 	margin: 0;
 	padding: .7em;
 	border-radius: .5em;
